@@ -1,3 +1,27 @@
+/bin/
+/build/
+/out/
+/logs/
+/*.log
+*.class
+
+# IDEs
 .vs/
-bin/
-obj/
+.vscode/
+.idea/
+*.iml
+
+# Environment / secrets
+*.env
+config/
+*.key
+*.pem
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
