@@ -1,27 +1,38 @@
-/bin/
-/build/
-/out/
-/logs/
-/*.log
-*.class
-
-# IDEs
+# IDE / editor files
 .vs/
 .vscode/
 .idea/
+*.suo
+*.user
+*.sln
 *.iml
+
+# Build artifacts
+bin/
+build/
+out/
+dist/
+*.class
+*.o
+*.exe
+
+# Logs and runtime data
+logs/
+*.log
+*.pid
 
 # Environment / secrets
 *.env
-config/
+config/          # Only if this contains passwords or keys
 *.key
 *.pem
+*.secret
 
 # Database files
 *.db
 *.sqlite
 *.sqlite3
 
-# OS files
+# OS / system files
 .DS_Store
 Thumbs.db
